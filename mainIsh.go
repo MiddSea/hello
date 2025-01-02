@@ -1,6 +1,8 @@
 package main
 
-func main() {
+import "hello/greet"
 
+func main() {
+	greet.Hello()
 	
 }

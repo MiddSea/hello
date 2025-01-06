@@ -1,7 +1,10 @@
-package greet
+package main
 
-import "fmt"
+import (
+    "fmt"
+)
 
-func hello()   {
-    fmt.Println("Hello, World!")
-}  
+func main() {
+    greet.Hello()
+    Hello()
+
